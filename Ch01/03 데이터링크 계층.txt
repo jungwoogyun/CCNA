@@ -1,0 +1,25 @@
+1
+역할 : 데이터의 운송방식
+약속 : LAN(이더넷) WAN(HDLC/PPP)
+장치 : Ethernet Switch
+
+2
+장치식별(LAN:MAC)
+오류제어
+흐름제어
+
+3
+LAN : Ethernet
+WAN : HDLC/PPP
+
+4
+CSMA/CD
+
+5
+통신량 많을때 충돌영역이 빈번히 발생함에따라
+전체 통신망의 문제가 발생이 다수
+
+
+6
+Ethernet Switch 
+
