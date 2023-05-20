@@ -1,0 +1,12 @@
+1
+경로탐색
+2
+라우터
+3
+IP,ICMP,ARP,Routing Protocol
+4
+주소
+5
+통신유무 확인
+6
+경로탐색 
