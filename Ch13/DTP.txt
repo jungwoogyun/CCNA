@@ -1,0 +1,18 @@
+DTP Mode 
+
+Trunk		 : 적용Port를 TrunkMode 지정			DTP송신 o / 수신 o
+Access		 : 적용Port를 AccessMode 지정			DTP송신 x / 수신 x
+Dynamic Desirable	: 상대포트에 적용된 mode따라 달라짐 		DTP송신 o / 수신 o
+Dynamic Auto(기본)	: 상대포트에 적용된 mode따라 달라짐		DTP송신 o(먼저송신x) / 수신 o
+
+
+T - T	: Trunk Mode
+A - A	: Access Mode
+T - A	: x
+T - DD 	: Trunk Mode
+T - DA	: Trunk Mode
+A - DD 	: Access Mode
+A - DA 	: Access Mode
+DD- DD	: Trunk Mode
+DD- DA	: Trunk Mode
+DA- DA 	: Access Mode
