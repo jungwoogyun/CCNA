@@ -1,0 +1,20 @@
+STP(Spanning-Tree Protocol)
+루핑방지를 목적으로 폐쇄회로의 개수 맞게 특정포트를 Blk 시키는 기술
+
+disabled	: 	BPDU 송x,수x , Mac 학습 x, 데이터 전송x
+(문제상황발생,shutdown)
+blocking	:	BPDU 송x,수o , Mac 학습 x, 데이터 전송x	
+(STP,Alternate Down)
+
+listening	:	BPDU 송o,수o , Mac 학습 x, 데이터 전송x
+(DP,RP 초기상태)
+learning	:	BPDU 송o,수o , Mac 학습 중, 데이터 전송 x
+	
+forwarding	:	BPDU 송o,수o , Mac 학습 o, 데이터 전송 o
+
+RSTP
+discarding  [disabled -> blocking -> listening]
+learning
+forwarding
+
+
